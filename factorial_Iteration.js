@@ -1,27 +1,34 @@
-//using the iterative approach
+/**
+ * The iterative approach
+ * Pro: Takes less memory than the recursive implementation
+ * Con: The code is lengthier than that of the recursive implementation
+ */
 
-// let factorial=1;
-// let num=4;
-// for (let i=num;i>=1;i--){
-//   console.log(factorial," X",i,"=",factorial*i)
-//    factorial*=i;
 
-// }
-// console.log(factorial);
+    /**
+        let factorial=1;
+        let num=4;
+        for (let i=num;i>=1;i--){
+        console.log(factorial," X",i,"=",factorial*i)
+        factorial*=i;
+
+        }
+        console.log(factorial); 
+
+    */
 
 
 //making it for  multiple value
 
-function factorialIteration(number){
-    let value=1;
-
-    if(number==0 || number==1){
-        return value;
+function factorialIteration(value){
+    let answer=1;
+    if(value==0 || value==1){
+        return answer;
     }else{
-        for (let i=number;i>=1;i--){
-            value*=i; 
+        for (let i=value;i>=1;i--){
+            answer*=i; 
         }
-        return value;
+        return answer;
     }
 }
 console.log("Factorial for 4: ",factorialIteration(4));
