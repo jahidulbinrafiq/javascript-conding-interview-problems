@@ -5,9 +5,9 @@
  */
 
 
-    /**
-        let factorial=1;
-        let num=4;
+    /**  
+        let factorial=1;//intial value
+        let num=4;//find the factorial of 4
         for (let i=num;i>=1;i--){
         console.log(factorial," X",i,"=",factorial*i)
         factorial*=i;
@@ -15,7 +15,7 @@
         }
         console.log(factorial); 
 
-    */
+  */
 
 
 //making it for  multiple value
@@ -33,3 +33,4 @@ function factorialIteration(value){
 }
 console.log("Factorial for 4: ",factorialIteration(4));
 console.log("Factorial for 5: ",factorialIteration(5));
+
