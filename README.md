@@ -1,2 +1,2 @@
-# js-problem-solving
+# JavaScript Problems
 
