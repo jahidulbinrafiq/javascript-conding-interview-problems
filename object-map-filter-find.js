@@ -14,3 +14,9 @@ console.log(biggerNumber);
 
 const findBiggerelement=students.find(st=>st.id>20);
 console.log(findBiggerelement);
+
+// for (let index = 0; index < students.length; index++) {
+//     const element = students[index];
+//     const sname=element.name;
+//     console.log(sname);
+// }
