@@ -20,6 +20,7 @@ console.log(square);
 //using filter==>
 
 //using function in filter
+
 /*
 const biggerNumbers=numbers.filter(function(element){
     return element>6;
