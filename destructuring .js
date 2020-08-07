@@ -34,3 +34,4 @@ const[firstIndex,lastIndex,...restFriends]=friends;
 console.log(firstIndex);
 console.log(lastIndex);
 console.log(restFriends);
+
