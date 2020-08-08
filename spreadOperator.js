@@ -50,7 +50,7 @@ console.log(addComputer);
 */
 
 //5) Spread syntax for object literals
-
+/*
 let obj1={
     name:'jokir Uddin',
     address:'Dhaka',
@@ -63,3 +63,10 @@ let obj2={
 
 let result={...obj1,...obj2};
 console.log(result);
+*/
+//6)Spread syntax for finding highest value 
+
+let str="432140";
+let result=Math.max(...str);
+console.log(result);
+console.log(...str);
