@@ -28,6 +28,7 @@ console.log(chargeBillHero(2000));
 */
 
 //call directly work in this method it directly called
+//call requires the arguments to be passed in one-by-one
 /*
 person.chargeBill.call(heroPerson,2000,300,23)
 console.log(heroPerson.salary);
@@ -35,6 +36,7 @@ console.log(heroPerson.salary);
 
 
 //apply passed argument as array from the second argument
+//apply takes the arguments as an array.
 
 person.chargeBill.apply(heroPerson,[2000,300,23])
 console.log(heroPerson.salary);
