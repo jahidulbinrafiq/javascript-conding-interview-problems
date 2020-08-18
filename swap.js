@@ -26,7 +26,7 @@
 
  */
 
- // In javascript way solve
+ //array destructing process
 
  let a=10,
     b=30;
