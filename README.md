@@ -1,2 +1,2 @@
-# common javascript coding interview questions
+# Common JavaScript coding interview questions
 
