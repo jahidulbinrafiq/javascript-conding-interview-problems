@@ -4,6 +4,11 @@
  * Con: Greater memory requirements as all the function calls remain on the stack until the base case is reached.
  */
 
+//4!=4*3*2*1
+// 5!=4!*5;
+// 5!=(5-1)!*5
+//n!=(n-1)!*n
+
  function factorial_recursive(value){
     //base case
     if(value===0||value===1){
