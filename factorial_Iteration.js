@@ -13,6 +13,7 @@
         factorial*=i;
 
         }
+        
         console.log(factorial); 
 
   */
